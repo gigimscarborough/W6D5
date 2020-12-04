@@ -31,3 +31,19 @@ Migrating to CreateCats (20201204172332)
   ↳ bin/rails:9
   [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
+Started GET "/" for ::1 at 2020-12-04 14:52:12 -0500
+  [1m[35m (15.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/russelkamal/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.2.4.4/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/russelkamal/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/russelkamal/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (82.5ms)
+Completed 200 OK in 367ms (Views: 285.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-12-04 14:52:21 -0500
+Processing by Rails::WelcomeController#index as */*
+  Rendering /home/russelkamal/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/russelkamal/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/railties-5.2.4.4/lib/rails/templates/rails/welcome/index.html.erb (6.8ms)
+Completed 200 OK in 166ms (Views: 102.0ms | ActiveRecord: 0.0ms)
+
+
