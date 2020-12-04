@@ -10,4 +10,6 @@ class CatsController < ApplicationController
 
         render :show
     end
+
+    def 
 end
